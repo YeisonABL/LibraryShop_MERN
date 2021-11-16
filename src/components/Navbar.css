@@ -156,3 +156,14 @@
     transition: 250ms;
   }
 }
+
+.navbar-input {
+  padding: 8px;
+  border-radius: 2px;
+  margin-right: 16px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 1px;
+  border: 1px solid #fff;
+}

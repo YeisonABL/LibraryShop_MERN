@@ -7,7 +7,11 @@
 
 .home,
 .services,
-.products,
+.deseos,
+.libro1,
+.libro2,
+.libro3,
+
 .sign-up {
   display: flex;
   height: 90vh;
@@ -25,7 +29,7 @@
   font-size: 100px;
 }
 
-.products {
+.deseos {
   background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: fill;
@@ -35,6 +39,31 @@
 }
 
 .sign-up {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.libro1 {
+  display: flex;
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.libro2 {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.libro3 {
   background-image: url('/images/img-8.jpg');
   background-position: center;
   background-size: cover;

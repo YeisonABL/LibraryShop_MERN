@@ -11,7 +11,7 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
+  max-width: 11200px;
   width: 90%;
   margin: 0 auto;
 }
@@ -90,13 +90,13 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 20px 60px 30px;
 }
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 70px;
 }
 
 @media only screen and (min-width: 1200px) {
