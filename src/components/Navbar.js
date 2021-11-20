@@ -32,22 +32,25 @@ function Navbar() {
             LibraryShop
             <i class='fab fa-typo3' />
           </Link>
-          
+
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <div className='input-areas'>
-          <form>
-            <input
-              className='navbar-input'
-              name='email'
-              type='email'
-              placeholder='Titulo, Autor, ISBN'
-            />
-            <Button buttonStyle='btn--outline'>Buscar</Button>
-          </form>
-        </div>
+
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <div class="demo-2">
+                  <form class="form-search">
+                    <div class="input-group">
+                      <input class="form-control form-text" maxlength="128" placeholder="Buscar" size="15" type="text" />
+                      <span class="input-group-btn"><button class="btn btn--outline"><i class="fa fa-search fa-lg">&nbsp;</i></button></span>
+                    </div>
+                  </form>
+                </div>
+
+              </Link>
+            </li>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Inicio
